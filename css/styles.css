@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+footer {
+  padding: 20px;
+  margin-bottom: 0;
+  background: linear-gradient(0deg, rgb(45, 65, 253) 0%, rgb(131, 246, 234) 100%);
+  margin-top: 1.5em;
+  left: 0;
+  right: 0;
+}
+footer .logo {
+  width: 20px;
+  height: 20px;
+}
+
+.redondear {
+  border-radius: 50% 50%;
+  height: 200px;
+  width: 300px;
+}
+@media (min-width: 500px) {
+  .redondear {
+    height: 300px;
+    width: 400px;
+  }
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px 20px 20px 20px;
+  align-items: center;
+  align-content: center;
+  padding: 30px;
+  margin: 20px;
+}
+@media (min-width: 768px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 1024px) {
+  .grid-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.card {
+  background-color: rgb(249, 232, 232);
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 2px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  padding-top: 20px;
+  gap: 20px;
+}
+@media (min-width: 768px) {
+  .card {
+    width: 320;
+  }
+}
+@media (min-with: 1024px) {
+  .card {
+    width: 300px;
+  }
+}
+
+.grid-container2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px 20px 20px 20px;
+  align-items: center;
+  align-content: center;
+  padding: 30px;
+  margin: 20px;
+  text-align: justify;
+}
+@media (min-width: 1024px) {
+  .grid-container2 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+}
+
+.card4 {
+  height: 320px;
+}
+@media (min-width: 500px) {
+  .card4 {
+    height: 320px;
+  }
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  padding: 20px;
+  font-size: large;
+  background: linear-gradient(0deg, rgb(131, 246, 234) 0%, rgb(45, 65, 253) 100%);
+  margin-bottom: 1em;
+}
+
+img {
+  border-radius: 5px;
+  width: 250px;
+  height: 200px;
+}
+
+body {
+  background-color: rgb(151, 186, 251);
+  font-weight: bolder;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: "poppins";
+}
+
+.formulario {
+  padding: auto;
+  margin: 100px 50px;
+  background-color: antiquewhite;
+}
+
+.contenedorsito {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.centrado {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.text1 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.corazon {
+  text-align: center;
+  align-items: center;
+}
+
+.freefamily {
+  border-radius: 50% 50%;
+  margin-top: 0px;
+}
+
+@media (min-width: 500px) {
+  img {
+    width: 300px;
+    height: 250px;
+  }
+  .items {
+    box-shadow: 2px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    gap: 20px;
+  }
+}
+@media (min-width: 500px) and (min-width: 768px) {
+  .redondear1 {
+    width: 400px;
+    height: 300px;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    margin: 100px 50px;
+  }
+}
+@media (min-width: 500px) and (min-width: 1024px) {
+  .redondear1 {
+    border-radius: 0px;
+    width: 950px;
+    height: 400px;
+    left: 0;
+    right: 0;
+  }
+  .cardfoto {
+    width: 300px;
+  }
+  .card3 {
+    height: 500px;
+  }
+}/*# sourceMappingURL=styles.css.map */
