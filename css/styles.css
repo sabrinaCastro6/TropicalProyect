@@ -35,12 +35,16 @@ footer .logo {
 }
 @media (min-width: 768px) {
   .grid-container {
+    
     grid-template-columns: repeat(2, 1fr);
+    
+    
   }
 }
 @media (min-width: 1024px) {
   .grid-container {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    
   }
 }
 
@@ -64,7 +68,7 @@ footer .logo {
 }
 @media (min-with: 1024px) {
   .card {
-    width: 300px;
+    width: 330px;
   }
 }
 
@@ -108,8 +112,8 @@ header {
 
 img {
   border-radius: 5px;
-  width: 250px;
-  height: 200px;
+  width: 300px;
+  height: 250px;
 }
 
 body {
@@ -156,13 +160,11 @@ body {
 .freefamily {
   border-radius: 50% 50%;
   margin-top: 0px;
+  
 }
 
 @media (min-width: 500px) {
-  img {
-    width: 300px;
-    height: 250px;
-  }
+  
   .items {
     box-shadow: 2px;
     width: 350px;
