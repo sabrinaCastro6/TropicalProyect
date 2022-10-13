@@ -67,12 +67,23 @@ img{
 .corazon{
    text-align: center;
    align-items: center;
+   margin-top: 1.5em;
+   margin-bottom: 1.5em;
+
 }
 
 .freefamily{
    border-radius: 50% 50%;
    margin-top: 0px;
    
+}
+
+.familydiv{
+   display: grid;
+   align-items: center;
+   align-content: center;
+   justify-items: center;
+
 }
 
 @media(min-width:500px){

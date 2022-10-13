@@ -17,6 +17,14 @@ footer .logo {
   height: 200px;
   width: 300px;
 }
+
+.familydiv{
+  display: grid;
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+
+}
 @media (min-width: 500px) {
   .redondear {
     height: 300px;
@@ -30,8 +38,7 @@ footer .logo {
   gap: 20px 20px 20px 20px;
   align-items: center;
   align-content: center;
-  padding: 30px;
-  margin: 20px;
+  justify-items: center;
 }
 @media (min-width: 768px) {
   .grid-container {
@@ -78,8 +85,7 @@ footer .logo {
   gap: 20px 20px 20px 20px;
   align-items: center;
   align-content: center;
-  padding: 30px;
-  margin: 20px;
+ 
   text-align: justify;
 }
 @media (min-width: 1024px) {
@@ -155,6 +161,8 @@ body {
 .corazon {
   text-align: center;
   align-items: center;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
 }
 
 .freefamily {
