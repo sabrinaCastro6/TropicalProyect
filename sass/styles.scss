@@ -16,6 +16,10 @@ header{
     margin-bottom: 1em;
    
 }
+.card6{
+   padding: auto;
+   margin: 5px 50px;
+}
 
 img{
    
@@ -43,6 +47,7 @@ img{
    padding: auto;
    margin: 100px 50px;
    background-color: antiquewhite;
+   border-radius: 5px;
    
 }
 
@@ -123,6 +128,8 @@ $size:300px;
        left: 0;
        right: 0;
    }
+
+   
 
 .cardfoto{
    width: $size;
